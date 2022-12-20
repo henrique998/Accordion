@@ -6,13 +6,71 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script type="module" defer src="/src/main.ts"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-  <title>Vite + TS</title>
+  <script type="module" defer src="/src/main.ts"></script>
+  <script defer src="https://unpkg.com/phosphor-icons"></script>
+
+  <title>Accordion</title>
 </head>
 
 <body>
-  <main></main>
+  <main>
+    <div class="accordion-container">
+      <div data-element="accordion-item" class="accordion-item">
+        <header>
+          <h2>What is Webflow and why is it the best website builder?</h2>
+
+          <button data-element="toggle-accordion-item-button">
+            <i class="ph-caret-right"></i>
+          </button>
+        </header>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div data-element="accordion-item" class="accordion-item">
+        <header>
+          <h2>What is Webflow and why is it the best website builder?</h2>
+
+          <button data-element="toggle-accordion-item-button">
+            <i class="ph-caret-right"></i>
+          </button>
+        </header>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div data-element="accordion-item" class="accordion-item">
+        <header>
+          <h2>What is Webflow and why is it the best website builder?</h2>
+
+          <button data-element="toggle-accordion-item-button">
+            <i class="ph-caret-right"></i>
+          </button>
+        </header>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>

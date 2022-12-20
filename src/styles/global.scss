@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
 
 :root {
-    --background: #FFFFFF;
-    --text: #000000;
+    --background: #F7F7FB;
+    --white: #FFFFFF;
+    --title: #170F49;
+    --text: #6F6C90;
+    --brand: #4A3AFF;
 }
 
 :focus {
